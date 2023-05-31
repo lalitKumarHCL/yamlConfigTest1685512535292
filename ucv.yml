@@ -1,0 +1,12 @@
+version: 1.0.0
+integrations:
+  - type: ucv-ext-github
+    attributes:
+      auto-config: false
+    configs:
+      name: Github Integration 2
+      apiUrl: https://api.github.com
+      owner: lalitKumarHCL
+      token: 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
+      repositories:
+        - yamlConfigTest
